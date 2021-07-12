@@ -5,82 +5,98 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center_horizontal"
     tools:context=".ragister">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginTop="30dp"
         app:srcCompat="@drawable/ic_profile_interface_rafiki" />
 
-    <EditText
-        android:id="@+id/ragister_Name"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/edit_text"
-        android:drawableLeft="@drawable/ic_account_circle_black_24dp"
-        android:drawablePadding="5dp"
-        android:ems="10"
-        android:hint="Name"
-        android:inputType="textPersonName"
-        android:padding="5dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:textAlignment="viewStart"
-        android:textSize="20sp"
-        android:typeface="normal" />
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintEnabled="false"
+        app:startIconDrawable="@drawable/ic_account_circle_black_24dp"
+        app:startIconTint="@color/black">
 
-    <EditText
-        android:id="@+id/ragister_EmailAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/edit_text"
-        android:drawableLeft="@drawable/ic_email_black_24dp"
-        android:drawablePadding="5dp"
-        android:ems="10"
-        android:hint="Email"
-        android:inputType="textEmailAddress"
-        android:padding="5dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:textAlignment="viewStart"
-        android:textSize="20sp"
-        android:typeface="normal" />
+        <EditText
+            android:id="@+id/ragister_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:typeface="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
 
-    <EditText
-        android:id="@+id/ragister_Password"
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="30dp"
-        android:background="@drawable/edit_text"
-        android:drawableLeft="@drawable/ic_lock_black_24dp"
-        android:drawablePadding="5dp"
-        android:ems="10"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:padding="5dp"
-        android:paddingLeft="5dp"
-        android:paddingRight="5dp"
-        android:textSize="20sp" />
+        app:endIconMode="clear_text"
+        app:endIconTint="@color/black"
+        app:hintEnabled="false"
+        app:startIconDrawable="@drawable/ic_email_black_24dp"
+        app:startIconTint="@color/black">
+
+        <EditText
+            android:id="@+id/ragister_EmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="viewStart"
+            android:textSize="20sp"
+            android:typeface="normal" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:hintEnabled="false"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/black"
+        app:startIconDrawable="@drawable/ic_lock_black_24dp"
+        app:startIconTint="@color/black">
+
+        <EditText
+            android:id="@+id/ragister_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
 
     <Button
         android:id="@+id/btn_ragister"
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_marginLeft="30dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
         android:layout_marginTop="30dp"
-        android:layout_marginRight="30dp"
+        android:layout_marginRight="20dp"
         android:background="@drawable/buttons"
         android:text="Ragister"
+        android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
 </LinearLayout>
