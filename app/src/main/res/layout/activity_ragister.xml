@@ -95,7 +95,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginRight="20dp"
         android:background="@drawable/buttons"
-        android:text="Ragister"
+        android:text="register"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
 
