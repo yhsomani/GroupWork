@@ -2,6 +2,7 @@ package com.example.groupwork;
 
 import android.os.Bundle;
 
+import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -14,7 +15,7 @@ import android.view.ViewGroup;
  * create an instance of this fragment.
  */
 public class DetailFragment extends Fragment {
-
+    CardView card1,card2,card3,card4,card5,card6,card7,card8;
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -59,6 +60,26 @@ public class DetailFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_detail, container, false);
+        View view = inflater.inflate(R.layout.fragment_detail, container, false);
+
+        card1 = view.findViewById(R.id.card1);
+        card1.setBackgroundResource(R.drawable.all_corner_curved);
+        card2 = view.findViewById(R.id.card2);
+        card2.setBackgroundResource(R.drawable.all_corner_curved);
+        card3 = view.findViewById(R.id.card3);
+        card3.setBackgroundResource(R.drawable.all_corner_curved);
+        card4 = view.findViewById(R.id.card4);
+        card4.setBackgroundResource(R.drawable.all_corner_curved);
+        card5 = view.findViewById(R.id.card5);
+        card5.setBackgroundResource(R.drawable.all_corner_curved);
+        card6 = view.findViewById(R.id.card6);
+        card6.setBackgroundResource(R.drawable.all_corner_curved);
+        card7 = view.findViewById(R.id.card7);
+        card7.setBackgroundResource(R.drawable.all_corner_curved);
+        card8 = view.findViewById(R.id.card8);
+        card8.setBackgroundResource(R.drawable.all_corner_curved);
+
+
+        return view;
     }
 }
