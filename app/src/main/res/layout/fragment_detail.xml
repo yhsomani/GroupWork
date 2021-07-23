@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#A15995FD"
     tools:context=".DetailFragment">
 
     <LinearLayout
@@ -19,7 +20,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -41,6 +42,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Like"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
@@ -51,7 +53,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -73,7 +75,8 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Post"
-                            android:textSize="25sp"/>
+                            android:textColor="#000000"
+                            android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
 
@@ -90,7 +93,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -112,6 +115,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Followers"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
@@ -122,7 +126,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -144,6 +148,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Following"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
@@ -161,7 +166,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -183,6 +188,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Comments"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
@@ -193,7 +199,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -215,6 +221,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Chats"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
@@ -232,7 +239,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -254,6 +261,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="Mutual Contacts"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
@@ -264,7 +272,7 @@
 
             <LinearLayout
                 android:layout_width="150dp"
-                android:layout_height="150dp"
+                android:layout_height="160dp"
                 android:layout_margin="5dp"
                 android:orientation="vertical">
 
@@ -286,6 +294,7 @@
                             android:layout_height="match_parent"
                             android:gravity="center"
                             android:text="User Graph"
+                            android:textColor="#000000"
                             android:textSize="25sp" />
 
                     </androidx.cardview.widget.CardView>
