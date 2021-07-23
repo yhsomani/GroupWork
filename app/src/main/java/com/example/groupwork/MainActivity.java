@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
                     openFragment(profile_fragment.newInstance("", ""));
                     return true;
                 case R.id.Setting:
-                    openFragment(search_fragment.newInstance("", ""));
+                    openFragment(setting_fragment.newInstance("", ""));
                     return true;
             }
             return false;
