@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#CC2E2E"
+    android:backgroundTint="#5B2DE3"
     app:layout_anchorGravity="center"
     tools:context=".PostFragment">
 

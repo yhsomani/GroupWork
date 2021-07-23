@@ -21,7 +21,7 @@ import com.google.android.material.tabs.TabLayout;
 public class profile_fragment extends Fragment {
     TabLayout tabLayout;
     FrameLayout frameLayout;
-    Fragment fragment = null;
+    Fragment fragment;
     FragmentManager fragmentManager;
     FragmentTransaction fragmentTransaction;
 
@@ -78,11 +78,11 @@ public class profile_fragment extends Fragment {
         tabLayout=view.findViewById(R.id.tabLayout);
         frameLayout=view.findViewById(R.id.frameLayout);
         fragment = new PostFragment();
-//        fragmentManager = getSupportFragmentManager();
-//        fragmentTransaction = fragmentManager.beginTransaction();
-//        fragmentTransaction.replace(R.id.frameLayout, fragment);
-//        fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-//        fragmentTransaction.commit();
+        fragmentManager = getParentFragmentManager();
+        fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.frameLayout, fragment);
+        fragmentTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+        fragmentTransaction.commit();
 
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
@@ -102,11 +102,11 @@ public class profile_fragment extends Fragment {
 //                        fragment = new PhpFragment();
 //                        break;
                 }
-//                FragmentManager fm = getSupportFragmentManager();
-//                FragmentTransaction ft = fm.beginTransaction();
-//                ft.replace(R.id.frameLayout, fragment);
-//                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
-//                ft.commit();
+                FragmentManager fm = getParentFragmentManager();
+                FragmentTransaction ft = fm.beginTransaction();
+                ft.replace(R.id.frameLayout, fragment);
+                ft.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_OPEN);
+                ft.commit();
             }
 
             @Override
@@ -119,19 +119,6 @@ public class profile_fragment extends Fragment {
 
             }
         });
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         return view;
