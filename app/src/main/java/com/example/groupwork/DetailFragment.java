@@ -74,10 +74,6 @@ public class DetailFragment extends Fragment {
         card5.setBackgroundResource(R.drawable.all_corner_curved);
         card6 = view.findViewById(R.id.card6);
         card6.setBackgroundResource(R.drawable.all_corner_curved);
-        card7 = view.findViewById(R.id.card7);
-        card7.setBackgroundResource(R.drawable.all_corner_curved);
-        card8 = view.findViewById(R.id.card8);
-        card8.setBackgroundResource(R.drawable.all_corner_curved);
 
 
         return view;
