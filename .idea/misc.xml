@@ -22,7 +22,12 @@
         <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/activity_ragister.xml" value="0.33" />
         <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_detail.xml" value="0.33" />
-        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_person.xml" value="0.35625" />
+        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_edit.xml" value="0.34933605720122574" />
+        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_person.xml" value="0.5" />
+        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_profile_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_search_fragment.xml" value="0.35625" />
+        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/layout/fragment_setting_fragment.xml" value="0.35625" />
+        <entry key="..\:/Users/Yash/StudioProjects/GroupWork/app/src/main/res/menu/menu.xml" value="0.35625" />
       </map>
     </option>
   </component>

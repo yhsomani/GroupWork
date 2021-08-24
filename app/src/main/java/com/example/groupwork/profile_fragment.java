@@ -98,9 +98,6 @@ public class profile_fragment extends Fragment {
                     case 2:
                         fragment = new DetailFragment();
                         break;
-                    case 3:
-                        fragment = new EditFragment();
-                        break;
                 }
                 FragmentManager fm = getParentFragmentManager();
                 FragmentTransaction ft = fm.beginTransaction();

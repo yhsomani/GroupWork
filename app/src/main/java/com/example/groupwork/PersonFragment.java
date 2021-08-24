@@ -1,5 +1,6 @@
 package com.example.groupwork;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import androidx.cardview.widget.CardView;
@@ -8,6 +9,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -17,6 +20,8 @@ import android.view.ViewGroup;
 public class PersonFragment extends Fragment {
 
     CardView cars_view;
+    Button viewmore;
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -64,6 +69,14 @@ public class PersonFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_person, container, false);
         cars_view = view.findViewById(R.id.card_view);
+        viewmore = view.findViewById( R.id.viewmore);
+        viewmore.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cars_view.setBackgroundColor(Color.BLACK);
+                cars_view.setMinimumHeight(View.MEASURED_HEIGHT_STATE_SHIFT); // discus with rushikesh bhaiya
+            }
+        });
 
 
         cars_view.setBackgroundResource(R.drawable.card_corner);
